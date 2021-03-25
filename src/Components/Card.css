@@ -1,0 +1,80 @@
+.all_card {
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background-color: white;
+    border-radius: 1em;
+    box-shadow: 0px 5px 30px -15px;
+} 
+.pictures{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    right: 50%;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+overflow: hidden;
+}
+.romb_img ,.woman_img{
+    position: absolute;
+right: 22.5%;
+}
+.romb_img { 
+    bottom: -30%;
+}
+.woman_img { 
+    top: 15%;
+}
+.cube_img{
+right: 90%;
+position: absolute;
+top: 41%;
+}
+.faq{
+    position: absolute;
+    left: 50%;
+    right: 10%;
+    text-align: left;
+}
+.faq h1{
+    margin-top: 60px;
+    font-family: "KumbhSans_bold";
+    margin-bottom: 40px;
+}
+.faq p{
+    font-size: 12px
+}
+.questions{
+border-bottom: 1px solid rgba(99, 99, 99, 0.32);
+}
+.arrow,.arrow.rotate {
+    right: 1em;
+    position: absolute;
+}
+.arrow.rotate {
+    transform: rotate(180deg);
+}
+span {
+    right: 1em;
+    position: absolute;
+}
+
+@font-face {
+    font-family: "KumbhSans"; 
+    src: url("./fonts/KumbhSans-Regular.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+@font-face {
+    font-family: "KumbhSans_bold"; 
+    src: url("./fonts/KumbhSans-Bold.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+    } 
