@@ -1,2 +1,2 @@
-# react
-For react projects
+# FAQ
+FAQ card
