@@ -1,0 +1,10 @@
+node_modules
+
+# Terraform 
+.terraform*
+*.tfstate*
+*.tfvars
+
+# Keys
+*.key
+*.pem
